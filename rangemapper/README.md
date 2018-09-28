@@ -39,3 +39,21 @@ id,time,nodeaddr,appeui,gwaddr,modulation,datarate,snr,rssi,freq,lat,lon,alt,acc
 
 ## Step 2 - Capture associated map
 
+Having range information of a subset of map tiles it is possible to learn range information of map tiles where range information is present. 
+
+The following map tile illustrates an arbitrary google maps tile
+
+![alt text](https://github.com/romeokienzler/meshai/raw/master/rangemapper/img/gm.png "Logo Title Text 1")
+
+## Step 4 - Add 2D target regression data to the training image
+
+Based on range information taken from TTN mapper we can draw a range map
+
+![alt text](https://github.com/romeokienzler/meshai/raw/master/rangemapper/img/gt1.png "Logo Title Text 1")
+
+## Step 3 - Train the model and predict
+
+Finally, the model can be used to predict range maps
+
+![alt text](https://github.com/romeokienzler/meshai/raw/master/rangemapper/img/p1.png "Logo Title Text 1")
+
