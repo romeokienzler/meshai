@@ -36,3 +36,6 @@ And some sample data...
 id,time,nodeaddr,appeui,gwaddr,modulation,datarate,snr,rssi,freq,lat,lon,alt,accuracy,hdop,sats,provider,name,mqtt_topic,user_agent,user_id
 3057917,2018-08-09 08:00:55,60c5a8ffff71d224,xuyutao,60C5A8FFFE71D210,LORA,SF7BW125,9.00,-34.00,904.900,59.367100,17.073000,0.0,null,null,null,Cayenne LPP,xuyutao,null,ttn_http_integration_v2,yutao.xu@rakconnected.com
 3057929,2018-08-09 08:03:51,60c5a8ffff71d225,xuyutao,60C5A8FFFE71D210,LORA,SF8BW125,12.00,-33.00,904.100,59.367100,17.072700,0.0,null,null,null,Cayenne 
+
+## Step 2 - Capture associated map
+
